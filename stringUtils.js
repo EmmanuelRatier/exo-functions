@@ -3,6 +3,8 @@ const reverseStr = (str) => {
 }
 console.log(reverseStr('manu'))
 
-const isPalindrome = () => {
-
+const isPalindrome = (str2) => {
+  return str2 === reverseStr(str2) ? true : false;
 }
+
+console.log(isPalindrome('kayak'))
